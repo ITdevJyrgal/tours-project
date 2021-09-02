@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+
+.minor-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 0;
+
+}
+
+.service {
+    background: url('../../images/service-bg.png') no-repeat center/contain;
+}
+
+li {
+    display: inline-block;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.minorHeader-menu {
+    display: flex;
+}
+
+.service-title {
+    font-family: Comfortaa, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 139.81px;
+    line-height: 156px;
+    letter-spacing: 0.02em;
+    margin-top: 85px;
+    color: #E9EFF7;
+    text-align: center;
+}
+
+.service-desc {
+    font-family: Comfortaa, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28.5899px;
+    line-height: 32px;
+    /* identical to box height */
+  text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 78px;
+    margin-top: 49px;
+    color: #F0F5FA;
+}
+
+.service-btns {
+    background: #F0F5FA;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 11px 50px;
+}
+
+.service-btn {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    color: #353234;
+    background: none;
+
+}
+
+.service-btn:not(:last-child) {
+    margin-right: 110px;
+}
+
+.active-btn {
+    color: #353234;
+    font-weight: bold;
+}
+
+.button-contents {
+    flex-grow: 1;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.service-info {
+    border-radius: 22.5117px;
+    background: #FFFFFF;
+    padding: 43px 46px 78px 46px;
+}
+
+.info-title {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height */
+    text-align: left;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+    color: #353234;
+}
+
+.info-offer {
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height */
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+
+    color: #353234;
+}
+
+.info-desc {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 29px;
+    /* or 132% */
+
+    margin-top: 35px;
+    color: #353234;
+    width: 775px;
+}
+
+.mission {
+    margin-left: -23px;
+    border: 2px solid #6821D5;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    padding: 24px 0 24px 20px;
+    margin-bottom: 72px;
+}
+
+.mission-title {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height */
+    margin-top: 62px;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+    color: #353234;
+}
+
+.mission-desc {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 151.2%;
+    /* or 35px */
+    width: 651px;
+
+    color: #353234;
+
+}
+
+.pad {
+    padding: 400px 0;
+}
+
+.values {
+    margin-top: 33px;
+}
+
+/*.center{*/
+/*    text-align: center;*/
+/*}*/
+.value-desc {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 151.2%;
+    /* or 35px */
+
+    letter-spacing: -0.02em;
+    margin-top: 40px;
+    color: #353234;
+
+}
+
+.value-item {
+
+    display: flex;
+    align-items: baseline;
+    /* justify-content: space-between; */
+    text-align: center;
+}
